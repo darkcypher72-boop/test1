@@ -1,0 +1,3 @@
+Put Master Tonmoy Kumar Deb's photo in this folder and name it exactly:  tonmoy.jpg
+(Recommended: a square photo, about 600 x 600 pixels.)
+Until the photo is added, the About card shows the initials "TK" instead.

@@ -1,0 +1,26 @@
+{
+  "name": "Elvian — Learn more. Work smart.",
+  "short_name": "Elvian",
+  "description": "Elvian is an AI assistant made for gaining knowledge and working smart.",
+  "id": "./e-ELVIAN.html",
+  "start_url": "./e-ELVIAN.html?source=app",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#05050c",
+  "theme_color": "#05050c",
+  "lang": "en-IN",
+  "categories": ["education", "productivity"],
+  "icons": [
+    { "src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "New chat", "short_name": "New chat", "url": "./e-ELVIAN.html?action=new", "icons": [{ "src": "assets/icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Ask by voice", "short_name": "Voice", "url": "./e-ELVIAN.html?action=mic", "icons": [{ "src": "assets/icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Set a timer", "short_name": "Timer", "url": "./e-ELVIAN.html?action=timer", "icons": [{ "src": "assets/icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Saved messages", "short_name": "Saved", "url": "./e-ELVIAN.html?action=saved", "icons": [{ "src": "assets/icons/icon-192.png", "sizes": "192x192" }] }
+  ],
+  "share_target": { "action": "./e-ELVIAN.html", "method": "GET", "params": { "title": "title", "text": "text", "url": "url" } }
+}
